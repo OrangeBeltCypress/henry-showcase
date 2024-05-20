@@ -1,0 +1,54 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    background-color: #b5f4ff;
+    font-family: serif;
+}
+
+.header{
+    min-height: 9vmin;
+    background-color: #634fff;
+    display: flex;
+}
+
+.projects{
+    margin-right: 10vmin;
+    text-decoration: none;
+}
+
+.links{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    font-size:4vmin; 
+    text-decoration: none; 
+}
+
+.logo{
+    max-height: 10vmin;
+    margin: 0.5vmin;
+}
+
+img{
+    max-width: 50%;
+    max-height: 40vmin;
+}
+
+.project1, .project2, .project3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #634fff;
+
+    margin-bottom: 10vmin;
+    margin-top: 10vmin;
+    padding-top: 3vmin;
+    padding-bottom: 3vmin;
+    margin-right: 20vmin;
+    margin-left: 20vmin;
+    border-radius: 10vmin;
+}
